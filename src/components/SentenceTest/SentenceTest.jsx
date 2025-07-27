@@ -62,9 +62,9 @@ export default function SentenceTest({ fullSentence, wordsToOmit = [], wordsToHi
       </div>
       {wordsToHint.length > 0 && (
         <div className="sentence-test-hints">
-          Hints: [
+          (
           {wordsToHint.join(', ')}
-          ]
+          )
         </div>
       )}
     </div>
