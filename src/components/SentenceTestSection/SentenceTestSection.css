@@ -1,0 +1,19 @@
+.sentence-section-container {
+  width: 100%;
+  margin-bottom: 8px
+}
+.sentence-section-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.sentence-section-actions button {
+  background-color: #8c8c8c;
+}
+
+.sentence-section-summary {
+  margin-left: 12px;
+  font-weight: bold;
+}

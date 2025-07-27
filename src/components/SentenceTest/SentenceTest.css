@@ -1,0 +1,34 @@
+.sentence-test-container {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.sentence-test-sentence {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sentence-test-input {
+  margin-right: 4px;
+}
+.sentence-test-input.correct {
+  background-color: green;
+}
+.sentence-test-input.incorrect {
+  background-color: red;
+}
+.sentence-test-input.empty {
+  background-color: gold;
+}
+.sentence-test-word {
+  margin-right: 4px;
+}
+.sentence-test-prefix {
+  display: inline-block;
+}
+.sentence-test-hints {
+  color: #888;
+  font-size: 0.95em;
+}
